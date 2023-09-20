@@ -29,3 +29,42 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+button{
+    height: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #333;
+}
+button:hover{
+    background-color: #eaeaea;
+}
+.operator{
+    color: rgb(7, 37, 172);
+}
+.clear{
+    background-color: rgb(206, 65, 88);
+    border-color: rgb(206, 65, 88);
+    color: #fff;
+}
+.clear:hover{
+    background-color: #f17377;
+}
+.equal-sign{
+    background-color:#02578f;
+    border-color: #9095e2;
+    color:#fff ;
+    height: 100%;
+    grid-area: 2/4/6/5;
+}
+.equal-sign:hover{
+    background-color:#2e86c0;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
