@@ -8,15 +8,21 @@ html{
 }
 body{
     font-size: 1.2rem;
+    background-image: url(/sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 .calculator{
-    border: 1px solid #ccc;
+    border: 1px solid #202020;
     border-radius: 5px;
     width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgb(253, 255, 255);
 }
 .calculator-input{
     width: 100%;
@@ -39,7 +45,7 @@ button{
     color: #333;
 }
 button:hover{
-    background-color: #eaeaea;
+    background-color: #cfcfcf;
 }
 .operator{
     color: rgb(7, 37, 172);
