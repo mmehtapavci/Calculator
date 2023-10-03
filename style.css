@@ -68,7 +68,6 @@ button:hover{
 .equal-sign:hover{
     background-color:#2e86c0;
 }
-
 .calculator-keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
